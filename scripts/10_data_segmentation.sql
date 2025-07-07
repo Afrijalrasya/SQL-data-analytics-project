@@ -1,19 +1,19 @@
 /*
 ===============================================================================
-Data Segmentation Analysis
+Analisis Segmentasi Data
 ===============================================================================
-Purpose:
-    - To group data into meaningful categories for targeted insights.
-    - For customer segmentation, product categorization, or regional analysis.
+Tujuan
+    - Untuk mengelompokkan data ke dalam kategori yang bermakna untuk mendapatkan insight yang ditargetkan.
+    - Untuk segmentasi pelanggan, kategorisasi produk, atau analisis regional.
 
-SQL Functions Used:
-    - CASE: Defines custom segmentation logic.
-    - GROUP BY: Groups data into segments.
+Fungsi SQL yang digunakan:
+    - CASE: Menentukan logika segmentasi khusus.
+    - GROUP BY: Mengelompokkan data kedalam segmen.
 ===============================================================================
 */
 
-/*Segment products into cost ranges and 
-count how many products fall into each segment*/
+/* Segmentasikan produk ke dalam rentang biaya dan
+hitung berapa banyak produk yang termasuk dalam setiap segmen*/
 WITH product_segments AS (
     SELECT
         product_key,
@@ -34,12 +34,14 @@ FROM product_segments
 GROUP BY cost_range
 ORDER BY total_products DESC;
 
-/*Group customers into three segments based on their spending behavior:
-	- VIP: Customers with at least 12 months of history and spending more than €5,000.
-	- Regular: Customers with at least 12 months of history but spending €5,000 or less.
-	- New: Customers with a lifespan less than 12 months.
-And find the total number of customers by each group
+/*Mengelompokkan pelanggan ke dalam tiga segmen berdasarkan perilaku pembelanjaan mereka:
+	- VIP: Nasabah dengan setidaknya 12 bulan riwayat transaksi dan membelanjakan lebih dari €5.000.
+	- Reguler: Pelanggan dengan riwayat transaksi minimal 12 bulan namun membelanjakan €5.000 atau kurang.
+	- Baru: Pelanggan dengan masa aktif kurang dari 12 bulan.
+Dan temukan jumlah total pelanggan berdasarkan masing-masing kelompok
 */
+
+
 WITH customer_spending AS (
     SELECT
         c.customer_key,
