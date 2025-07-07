@@ -2,18 +2,17 @@
 ===============================================================================
 Cumulative Analysis
 ===============================================================================
-Purpose:
-    - To calculate running totals or moving averages for key metrics.
-    - To track performance over time cumulatively.
-    - Useful for growth analysis or identifying long-term trends.
-
-SQL Functions Used:
+Tujuan:
+    - Untuk menghitung total berjalan atau rata-rata yang begerak untuk metrik utama.
+    - Untuk melacak kinerja dari waktu ke waktu secara kumulatif.
+    - Berguna untuk analisis pertumbuhan atau mengidentifikasi tren jangka panjang.
+Fungsi SQL yang digunakan:
     - Window Functions: SUM() OVER(), AVG() OVER()
 ===============================================================================
 */
 
--- Calculate the total sales per month 
--- and the running total of sales over time 
+-- Menghitung total penjualan perbulan 
+-- dan total penjualan yang sedang berjalan dari waktu ke waktu
 SELECT
 	order_date,
 	total_sales,
