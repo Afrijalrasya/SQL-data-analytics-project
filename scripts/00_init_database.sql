@@ -1,21 +1,22 @@
+
 /*
 =============================================================
-Create Database and Schemas
+Membuat Database dan Schema
 =============================================================
-Script Purpose:
-    This script creates a new database named 'DataWarehouseAnalytics' after checking if it already exists. 
-    If the database exists, it is dropped and recreated. Additionally, this script creates a schema called gold
-	
-WARNING:
-    Running this script will drop the entire 'DataWarehouseAnalytics' database if it exists. 
-    All data in the database will be permanently deleted. Proceed with caution 
-    and ensure you have proper backups before running this script.
+Tujuan Skrip:
+    Skrip ini membuat database baru bernama 'DataWarehouseAnalytics' setelah memeriksa apakah database tersebut sudah ada.
+    Jika database sudah ada, maka database tersebut akan dihapus dan dibuat ulang. Selain itu, skrip ini juga membuat sebuah skema dengan nama gold
+
+PERINGATAN:
+    Menjalankan skrip ini akan menghapus seluruh database 'DataWarehouseAnalytics' jika sudah ada.
+    Semua data dalam database akan dihapus secara permanen. Lanjutkan dengan hati-hati
+    dan pastikan Anda memiliki backup yang tepat sebelum menjalankan skrip ini.
 */
 
 USE master;
 GO
 
--- Drop and recreate the 'DataWarehouseAnalytics' database
+-- Menghapus dan buat ulang Database'DataWarehouseAnalytics' 
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouseAnalytics')
 BEGIN
     ALTER DATABASE DataWarehouseAnalytics SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
@@ -23,14 +24,14 @@ BEGIN
 END;
 GO
 
--- Create the 'DataWarehouseAnalytics' database
+-- Membuat database
 CREATE DATABASE DataWarehouseAnalytics;
 GO
 
 USE DataWarehouseAnalytics;
 GO
 
--- Create Schemas
+-- Membuat schema
 
 CREATE SCHEMA gold;
 GO
