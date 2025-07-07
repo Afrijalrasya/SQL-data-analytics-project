@@ -2,23 +2,23 @@
 ===============================================================================
 Date Range Exploration 
 ===============================================================================
-Purpose:
-    - To determine the temporal boundaries of key data points.
-    - To understand the range of historical data.
+Tujuan
+    - Untuk menentukan batas-batas temporal dari titik-titik data utama.
+    - Untuk memahami rentang data historis.
 
-SQL Functions Used:
+Fungsi SQL yang Digunakan:
     - MIN(), MAX(), DATEDIFF()
 ===============================================================================
 */
 
--- Determine the first and last order date and the total duration in months
+-- Tentukan first order dan last order serta total durasi dalam bulan
 SELECT 
     MIN(order_date) AS first_order_date,
     MAX(order_date) AS last_order_date,
     DATEDIFF(MONTH, MIN(order_date), MAX(order_date)) AS order_range_months
 FROM gold.fact_sales;
 
--- Find the youngest and oldest customer based on birthdate
+-- Temukan pelanggan termuda dan tertua berdasarkan tanggal lahir
 SELECT
     MIN(birthdate) AS oldest_birthdate,
     DATEDIFF(YEAR, MIN(birthdate), GETDATE()) AS oldest_age,
