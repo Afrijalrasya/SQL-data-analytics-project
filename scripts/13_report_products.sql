@@ -1,4 +1,4 @@
-/*
+m/*
 ===============================================================================
 Laporan Produk
 ===============================================================================
@@ -33,7 +33,7 @@ CREATE VIEW gold.report_products AS
 
 WITH base_query AS (
 /*---------------------------------------------------------------------------
-1) Base Query: Retrieves core columns from fact_sales and dim_products
+1) Base Query: Mengambil kolom inti dari fact_sales dan dim_products
 ---------------------------------------------------------------------------*/
 
 SELECT
@@ -54,7 +54,7 @@ where order_date is not null
 ), 
  product_aggregation as(
 /*---------------------------------------------------------------------------
-2) Product Aggregations: Summarizes key metrics at the product level
+2) Agregasi Produk: Merangkum metrik utama di tingkat produk
 ---------------------------------------------------------------------------*/
 SELECT
 product_key,
@@ -80,7 +80,7 @@ group by
 )
 
 /*---------------------------------------------------------------------------
-  3) Final Query: Combines all product results into one output
+  3) Final Query: Menggabungkan semua hasil produk menjadi satu output
 ---------------------------------------------------------------------------*/
 SELECT
 product_key,
