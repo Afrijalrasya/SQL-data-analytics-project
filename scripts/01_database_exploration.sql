@@ -2,17 +2,18 @@
 ===============================================================================
 Database Exploration
 ===============================================================================
-Purpose:
-    - To explore the structure of the database, including the list of tables and their schemas.
-    - To inspect the columns and metadata for specific tables.
 
-Table Used:
+Tujuan:
+    - Untuk eksplor struktur database, termasuk daftar tabel dan skemanya.
+    - Untuk memeriksa kolom dan metadata untuk tabel tertentu.
+
+Tabel yang Digunakan:
     - INFORMATION_SCHEMA.TABLES
     - INFORMATION_SCHEMA.COLUMNS
 ===============================================================================
 */
 
--- Retrieve a list of all tables in the database
+-- Mengambil daftar semua tabel dalam database
 SELECT 
     TABLE_CATALOG, 
     TABLE_SCHEMA, 
@@ -20,7 +21,7 @@ SELECT
     TABLE_TYPE
 FROM INFORMATION_SCHEMA.TABLES;
 
--- Retrieve all columns for a specific table (dim_customers)
+-- Mengambil semua kolom untuk tabel tertentu (dim_customers)
 SELECT 
     COLUMN_NAME, 
     DATA_TYPE, 
