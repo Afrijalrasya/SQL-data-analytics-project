@@ -18,6 +18,6 @@ Hi there, I'm **Afrijal Rasya Putra**, I'm an **Informatics student** with a gro
 
 I’m a curious and fast learner who’s always excited to explore new things. I'm also open to **internship opportunities** or **collaborative projects** that can give me hands-on experience in the data field.
 
-📫 Feel free to connect or reach out—happy to learn, share, and grow together!
+📫 Feel free to connect or reach out, happy to learn, share, and grow together!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afrijalrasyaputra/)
