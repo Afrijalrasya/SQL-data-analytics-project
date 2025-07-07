@@ -13,7 +13,7 @@ SQL Functions Used:
 ===============================================================================
 */
 
--- Analyse sales performance over time
+-- Menganalisis kinerja penjualan dari waktu ke waktu
 -- Quick Date Functions
 SELECT
     YEAR(order_date) AS order_year,
