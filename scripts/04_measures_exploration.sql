@@ -2,38 +2,37 @@
 ===============================================================================
 Measures Exploration (Key Metrics)
 ===============================================================================
-Purpose:
-    - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
-    - To identify overall trends or spot anomalies.
-
-SQL Functions Used:
+Tujuan:
+    - Untuk menghitung metrik agregat (misalnya, total, rata-rata) untuk mendapatkan insight cepat.
+    - Untuk mengidentifikasi tren secara keseluruhan atau menemukan anomali.
+SQL Functions yang digunakan:
     - COUNT(), SUM(), AVG()
 ===============================================================================
 */
 
--- Find the Total Sales
+-- Menghitung Total Sales
 SELECT SUM(sales_amount) AS total_sales FROM gold.fact_sales
-
--- Find how many items are sold
+ 
+--Mencari tahu berapa banyak item yang terjual
 SELECT SUM(quantity) AS total_quantity FROM gold.fact_sales
 
--- Find the average selling price
+-- Temukan rata rata harga jual
 SELECT AVG(price) AS avg_price FROM gold.fact_sales
 
--- Find the Total number of Orders
+-- Temukan Jumlah Total Pesanan
 SELECT COUNT(order_number) AS total_orders FROM gold.fact_sales
 SELECT COUNT(DISTINCT order_number) AS total_orders FROM gold.fact_sales
 
--- Find the total number of products
+-- Temukan jumlah total produk
 SELECT COUNT(product_name) AS total_products FROM gold.dim_products
 
--- Find the total number of customers
+-- Temukan jumlah total customer
 SELECT COUNT(customer_key) AS total_customers FROM gold.dim_customers;
 
--- Find the total number of customers that has placed an order
+-- Temukan jumlah total pelanggan yang telah melakukan pemesanan
 SELECT COUNT(DISTINCT customer_key) AS total_customers FROM gold.fact_sales;
 
--- Generate a Report that shows all key metrics of the business
+-- Membuat Laporan yang menunjukkan semua metrik utama bisnis
 SELECT 'Total Sales' AS measure_name, SUM(sales_amount) AS measure_value FROM gold.fact_sales
 UNION ALL
 SELECT 'Total Quantity', SUM(quantity) FROM gold.fact_sales
