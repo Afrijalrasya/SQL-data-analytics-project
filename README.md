@@ -16,7 +16,8 @@ Hi there, I'm **Afrijal Rasya Putra**, I'm an **Informatics student** with a gro
 - **SQL** and basic data manipulation
 - Fundamentals of **ETL** and data pipeline workflows
 
-I’m a curious and fast learner who’s always excited to explore new things. I'm also open to **internship opportunities** or **collaborative projects** that can give me hands-on experience in the data field.
+I'm someone who enjoys learning and exploring new things, especially in the data field. I'm currently building my skills step by step and always looking for opportunities to grow. I'm also open to **internships** or **collaborative projects** that can help me gain practical experience and keep learning along the way.
+
 
 📫 Feel free to connect or reach out, happy to learn, share, and grow together!
 
