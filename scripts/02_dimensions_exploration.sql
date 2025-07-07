@@ -3,22 +3,23 @@
 ===============================================================================
 Dimensions Exploration
 ===============================================================================
-Purpose:
-    - To explore the structure of dimension tables.
+Tujuan:    
+	- Untuk mengeksplorasi struktur tabel dimensi.
 	
-SQL Functions Used:
+Fungsi SQL yang digunakan:
     - DISTINCT
     - ORDER BY
 ===============================================================================
 */
 
--- Retrieve a list of unique countries from which customers originate
+-- Mengambil daftar negara unik tempat asal pelanggan
 SELECT DISTINCT 
     country 
 FROM gold.dim_customers
 ORDER BY country;
 
--- Retrieve a list of unique categories, subcategories, and products
+
+--Mengambil daftar kategori, subkategori, dan produk yang unik
 SELECT DISTINCT 
     category, 
     subcategory, 
