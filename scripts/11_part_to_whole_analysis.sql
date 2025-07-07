@@ -7,12 +7,11 @@ Tujuan
     - Untuk mengevaluasi perbedaan antar kategori.
     - Berguna untuk pengujian A/B atau perbandingan regional.
 
-SQL Functions Used:
-    - SUM(), AVG(): Aggregates values for comparison.
-    - Window Functions: SUM() OVER() for total calculations.
+Fungsi SQL yang digunakan:
+    - SUM(), AVG(): Nilai agregat untuk perbandingan.
+    - Window Functions: SUM() OVER() untuk total perhitungan.
 ===============================================================================
 */
--- Which categories contribute the most to overall sales?
 -- Kategori mana yang paling banyak berkontribusi terhadap penjualan secara keseluruhan?
 use DataWarehouseAnalytics
 
