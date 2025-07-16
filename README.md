@@ -13,7 +13,7 @@ Proyek ini menggunakan [Lisensi MIT](LICENSE). Anda bebas menggunakan, memodifik
 Halo! Saya **Afrijal Rasya Putra**, seorang **mahasiswa Informatika** yang sedang tertarik mendalami dunia **Data Engineering**. Meskipun masih di awal perjalanan kuliah, saya sangat antusias belajar tentang bagaimana data diproses dan diubah menjadi informasi yang bermakna.
 
 📌 Saat ini saya sedang belajar:
-- Pemrograman **Python**
+- Data Visualization
 - **SQL** dan dasar-dasar manipulasi data
 - Konsep dasar **ETL** dan alur kerja data pipeline
 
