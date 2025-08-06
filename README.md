@@ -3,9 +3,6 @@
 A collection of SQL scripts designed for data exploration, analysis, and reporting. These scripts cover various types of analysis such as database exploration, metrics calculation, time-based trending, cumulative analysis, segmentation, and more.
 
 The repository contains SQL queries intended to help data analysts and BI professionals explore, analyze, and segment data faster within relational databases. Each script is focused on a specific analysis theme and applies best practices in SQL query writing.
-*** Translated with www.DeepL.com/Translator (free version) ***
-
-
 ## 🛡️ License
 
 This project uses the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
