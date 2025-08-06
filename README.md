@@ -1,24 +1,28 @@
 # sql-data-analytics-project
 
-Kumpulan skrip SQL yang dirancang untuk eksplorasi data, analisis, dan pelaporan. Skrip-skrip ini mencakup berbagai jenis analisis seperti eksplorasi database, perhitungan metrik, tren berdasarkan waktu, analisis kumulatif, segmentasi, dan lainnya.
+A collection of SQL scripts designed for data exploration, analysis, and reporting. These scripts cover various types of analysis such as database exploration, metrics calculation, time-based trending, cumulative analysis, segmentation, and more.
 
-Repositori ini berisi query SQL yang ditujukan untuk membantu analis data dan profesional BI dalam mengeksplorasi, menganalisis, dan melakukan segmentasi data dengan lebih cepat di dalam database relasional. Setiap skrip difokuskan pada tema analisis tertentu dan menerapkan praktik terbaik dalam penulisan query SQL.
+The repository contains SQL queries intended to help data analysts and BI professionals explore, analyze, and segment data faster within relational databases. Each script is focused on a specific analysis theme and applies best practices in SQL query writing.
+*** Translated with www.DeepL.com/Translator (free version) ***
 
-## 🛡️ Lisensi
 
-Proyek ini menggunakan [Lisensi MIT](LICENSE). Anda bebas menggunakan, memodifikasi, dan membagikan proyek ini dengan mencantumkan atribusi yang sesuai.
+## 🛡️ License
 
-## 🌟 Tentang Saya
+This project uses the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 
-Halo! Saya **Afrijal Rasya Putra**, seorang **mahasiswa Informatika** yang sedang tertarik mendalami dunia **Data**. Meskipun masih di awal perjalanan kuliah, saya sangat antusias belajar tentang bagaimana data diproses dan diubah menjadi informasi yang bermakna.
+## About Me
 
-📌 Saat ini saya sedang belajar:
-- Data Visualization
-- **SQL** dan dasar-dasar manipulasi data
-- Konsep dasar **ETL** dan alur kerja data pipeline
+Hello! I am **Afrijal Rasya Putra**, an Informatics student who is interested in exploring the world of **Data**. Although it's still early in my college journey, I'm excited to learn about how data is processed and turned into meaningful information.
 
-Saya senang belajar dan mengeksplorasi hal-hal baru, terutama yang berkaitan dengan data. Saat ini saya sedang membangun keterampilan secara bertahap dan terus mencari peluang untuk berkembang. Saya juga terbuka untuk **magang** atau **proyek kolaboratif** yang bisa memberi saya pengalaman langsung dan membantu proses belajar saya.
+📌 I am currently studying:
+- Python basic
+- **SQL** and the basics of data manipulation
+- Basic concepts of **ETL** and data pipeline workflows
 
-📫 Jangan ragu untuk terhubung atau berdiskusi—saya senang bisa belajar dan berkembang bersama!
+I love learning and exploring new things, especially those related to data. I am currently building my skills gradually and constantly looking for opportunities to grow. I am also open to **internships** or **collaborative projects** that can give me hands-on experience and help my learning process.
+
+📫 Feel free to connect or discuss-I'd love to learn and grow together!
+
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afrijalrasyaputra/)
